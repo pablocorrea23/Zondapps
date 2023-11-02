@@ -10,6 +10,7 @@ export default function Home() {
           <h2>Desarrollo de páginas web y aplicaciones</h2>
           <botton>Conoce mas</botton>
           <botton>Nuestros planes</botton>
+          <div className={styles.z_fondo}></div>
         </div>
         <div className={styles.box2}>
           
