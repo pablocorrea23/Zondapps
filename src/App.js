@@ -6,11 +6,12 @@ import Footer from './components/Footer/Footer';
 import  Nosotros  from './components/Nosotros/Nosotros';
 
 
+
 function App() {
   return (
     <>
-      <Navbar/>
-      <Home/>
+      {/* <Navbar/>
+      <Home/> */}
       <Productos/>
       <Nosotros/>
       <Footer/> 

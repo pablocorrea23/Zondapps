@@ -1,5 +1,49 @@
-.fondo_product{
+.fondo_product {
     width: 100%;
     height: 100vh;
     background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1_product{
+    flex: 50%;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_pc_product{
+    max-width: 20rem;
+}
+
+.box2_product{
+    flex: 50%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_product {
+    color: #22DCBE;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.descripcion_product {
+    color: #FFF;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 1.1rem;
 }
