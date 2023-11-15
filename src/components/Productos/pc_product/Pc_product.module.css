@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .img_pc_product {
@@ -33,6 +34,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .titulo_product {
@@ -41,6 +43,7 @@
   line-height: normal;
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .descripcion_product {
@@ -51,6 +54,7 @@
   line-height: normal;
   font-size: 1.1rem;
 }
+
 .marquesina{
   position: absolute;
   display: flex;
@@ -62,6 +66,7 @@
   opacity: 0.05;
   }
   .palabra_marq{
+    color: #FFF;
     height: 33%;
   }
 
@@ -98,35 +103,10 @@
     font-weight: 600;
     font-size: 1.6rem;
   }
-}
-
-@media (min-width: 1380px){
-  .fondo_product {
-    padding: 0 3rem;
-   
-  }
-  .img_pc_product {
-    max-width: 28rem;
-  }
-  
-  .box2_product {
-    height: 100%;
-  }
-  
-  .titulo_product {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
-  .descripcion_product {
-    font-weight: 600;
-    font-size: 1.6rem;
-    max-width: 80%;
-  }
   .marquesina{
     font-size: 12rem;
  }
 }
-
 @media (min-width: 950px){
   .fondo_product {
     padding: 0 2rem;
@@ -144,3 +124,30 @@
     font-size: 1.6rem;
   }
 }
+@media (min-width: 1380px){
+  .fondo_product {
+    padding: 0 3rem;
+   
+  }
+  .img_pc_product {
+    max-width: 28rem;
+  }
+  
+  .box2_product {
+    height: 100%;
+  }
+  
+  .titulo_product {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    max-width: 80%;
+  }
+  .descripcion_product {
+    font-weight: 600;
+    font-size: 1.6rem;
+    max-width: 80%;
+  }
+  
+  
+}
+

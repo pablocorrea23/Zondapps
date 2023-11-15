@@ -67,6 +67,7 @@
   }
   .palabra_marq{
     height: 33%;
+    color: #FFF;
   }
 
 @media (min-height: 670px) {

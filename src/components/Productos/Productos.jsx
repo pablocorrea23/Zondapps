@@ -6,8 +6,8 @@ import Cel_product from './cel_product/Cel_product';
 export default function Productos() {
     return (
         <>
-        <Cel_product />
         <Pc_product />
+        <Cel_product />
         
         </>
     )
