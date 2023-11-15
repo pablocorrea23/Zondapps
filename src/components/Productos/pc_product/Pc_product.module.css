@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  position: relative;
 }
 
 .box1_product {
@@ -50,6 +51,19 @@
   line-height: normal;
   font-size: 1.1rem;
 }
+.marquesina{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 8rem;
+  font-weight:900;
+  z-index: 1;
+  opacity: 0.05;
+  }
+  .palabra_marq{
+    height: 33%;
+  }
 
 @media (min-height: 670px) {
   .img_pc_product {
@@ -63,6 +77,9 @@
     font-size: 2rem;
     margin-bottom: 1rem;
   }
+  .marquesina{
+    font-size: 12rem;
+ }
 }
 
 @media (min-width: 500px) and (min-height: 670px) {
@@ -105,6 +122,9 @@
     font-size: 1.6rem;
     max-width: 80%;
   }
+  .marquesina{
+    font-size: 12rem;
+ }
 }
 
 @media (min-width: 950px){
