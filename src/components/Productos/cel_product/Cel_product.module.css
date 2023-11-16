@@ -66,8 +66,8 @@
   opacity: 0.05;
   }
   .palabra_marq{
-    height: 33%;
     color: #FFF;
+    height: 33%;
   }
 
 @media (min-height: 670px) {

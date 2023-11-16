@@ -18,13 +18,13 @@ export default function Pc_product() {
                     <p className={styles.descripcion_product}>Potencia tu negocio con una página web que te permita contactar y fidelizar más y mejores clientes</p>
                 </div>
                 <div className={styles.marquesina}>
-                <Marquee className={styles.palabra_marq}>
-                    <h3> DESARROLLO WEB&nbsp; DESARROLLO WEB&nbsp; </h3>
-                </Marquee>
                 <Marquee direction='right' className={styles.palabra_marq}>
                     <h3> DESARROLLO WEB&nbsp; DESARROLLO WEB&nbsp; </h3>
                 </Marquee>
-                <Marquee className={styles.palabra_marq}>
+                <Marquee  className={styles.palabra_marq}>
+                    <h3> DESARROLLO WEB&nbsp; DESARROLLO WEB&nbsp; </h3>
+                </Marquee>
+                <Marquee direction='right' className={styles.palabra_marq}>
                     <h3> DESARROLLO WEB&nbsp; DESARROLLO WEB&nbsp; </h3>
                 </Marquee>
                 </div>
