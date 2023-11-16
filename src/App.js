@@ -11,11 +11,11 @@ import  Nosotros  from './components/Nosotros/Nosotros';
 function App() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/>
       <Home/>
-      <Arranca/>
+      <Arranca/> */}
       <Productos/>
-      <Nosotros/>
+      {/* <Nosotros/> */}
       <Footer/> 
       </>
   );
