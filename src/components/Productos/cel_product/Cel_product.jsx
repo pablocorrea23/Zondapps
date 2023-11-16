@@ -6,6 +6,7 @@ export default function Cel_product() {
     return (
         <>
             <div className={styles.fondo_product}>
+                
                 <div className={styles.box1_product}>
                     <img className={styles.img_pc_product} src={cel_product} alt='Imagen del producto' />
                 </div>
