@@ -1,4 +1,4 @@
-import styles from './Pc_product.module.css'
+import styles from './Pc_product.module.css';
 import pc_product from '../../../assets/pc_product.png';
 import Marquee from 'react-fast-marquee';
 
