@@ -13,11 +13,11 @@ function arranca() {
 
         <div className={styles.contenedor_texto}>
           <div>
-            <h2>ARRANCÁ<br />CON FUERZA</h2>
+            <h2>ARRANCÁ,<br />CON FUERZA</h2>
           </div>
 
           <div>
-            <h3>Potencía tu negocio con una página web <br />que te permita contactar y fidelizar más y<br />mejores clientes.</h3>
+            <h3>Potencía tu negocio con una página web <br />que te permita contactar y fidelizar más<br/> y mejores clientes.</h3>
           </div>
 
         </div>
