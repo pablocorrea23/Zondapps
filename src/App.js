@@ -14,11 +14,11 @@ import Carrusel from './components/Carrusel/Carrusel';
 function App() {
   return (
     <>
-      {/* <Navbar/>
+       <Navbar/>
       <Home/>
       <Arranca/>
-      {/* <Productos/> */}
-      <Nosotros/>
+       <Productos/> 
+      <Carrusel/>
       <Footer/> 
       </>
   );
