@@ -30,12 +30,12 @@ const Navbar = () => {
                     <button>Equipo</button>
                     <button>Contacto</button>
                 </ul>
+            </div>
 
-                <div className='iconos_nav'>
-                    <div className='iconos_img'><img src={instagram} alt="instagram" /></div>
-                    <div className='iconos_img'><img src={mail} alt="mail" /></div>
-                    <div className='iconos_img'><img src={facebook} alt="facebook" /></div>
-                </div>
+            <div className='iconos_nav'>
+                <div className='iconos_img'><img src={instagram} alt="instagram" /></div>
+                <div className='iconos_img'><img src={mail} alt="mail" /></div>
+                <div className='iconos_img'><img src={facebook} alt="facebook" /></div>
             </div>
         </nav>
     );
