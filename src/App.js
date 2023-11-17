@@ -18,7 +18,8 @@ function App() {
       <Home/>
       <Arranca/>
        <Productos/> 
-      <Carrusel/>
+      {/* <Carrusel/> */}
+      <Nosotros/>
       <Footer/> 
       </>
   );
