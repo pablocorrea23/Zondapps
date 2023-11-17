@@ -16,6 +16,7 @@ export default function Cel_product() {
                     <h3 className={styles.titulo_product}>DESARROLLO DE APLICACIONES</h3>
                     <p className={styles.descripcion_product}>Potencia tu negocio con una página web que te permita contactar y fidelizar más y mejores clientes</p>
                 </div>
+                
                 <div className={styles.marquesina}>
                 <Marquee className={styles.palabra_marq}>
                     <h3> APLICACIONES WEB&nbsp; APLICACIONES WEB &nbsp; </h3>

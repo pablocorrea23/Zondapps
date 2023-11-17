@@ -6,7 +6,6 @@ export default function Productos() {
         <>
         <Pc_product />
         <Cel_product />
-        
         </>
     )
 }
