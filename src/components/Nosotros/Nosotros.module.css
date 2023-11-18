@@ -1,0 +1,74 @@
+/* Nosotros.module.css */
+
+.mySwiper {
+  max-width: 100%;
+  height: 100vh;
+  background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 300px;
+  margin: 15rem auto;
+  text-align: center;
+  border-radius: 35px;
+  background: linear-gradient(197deg, rgba(52, 240, 210, 0.50) 3.6%, rgba(0, 72, 117, 0.50) 78.85%); padding: -1rem 2rem 5rem 2rem;
+  overflow: hidden;
+  display: flex; /* Utilizamos flexbox para centrar verticalmente */
+  flex-direction: column; /* Aplicamos flexbox en dirección de columna */
+  justify-content: center; /* Centramos verticalmente */
+  box-sizing: border-box;
+  
+  
+  animation: float 5s infinite alternate-reverse; /* Animación de flotar */
+}
+
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(15px); /* Ajusta la distancia del efecto flotante */
+    }
+  }
+
+.cardImage {
+  margin-top: 2rem;
+  width: 24rem;
+  border-radius: 800px;
+  border: 3px solid #FFF;
+  background-color: #6098F0;
+  border-radius: 641px;
+  border: 9px solid #FFF;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardTitle {
+  color: #22DCBE;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Kanit;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.cardText {
+  color: #FFF;
+
+  font-family: Kanit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
