@@ -1,5 +1,5 @@
 import styles from './Cel_product.module.css';
-import cel_product from '../../../assets/cel_product.png';
+import cel_product from '../../../assets/img_products/cel_product.png';
 import Marquee from "react-fast-marquee";
 
 export default function Cel_product() {
