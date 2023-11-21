@@ -1,5 +1,5 @@
 import styles from './Cel_product.module.css';
-import cel_product from '../../../assets/cel_product.png';
+import cel_product from '../../../assets/img_products/cel_product.png';
 import Marquee from "react-fast-marquee";
 
 export default function Cel_product() {
@@ -14,7 +14,7 @@ export default function Cel_product() {
 
                 <div className={styles.box2_product}>
                     <h3 className={styles.titulo_product}>DESARROLLO DE APLICACIONES</h3>
-                    <p className={styles.descripcion_product}>Potencia tu negocio con una página web que te permita contactar y fidelizar más y mejores clientes</p>
+                    <p className={styles.descripcion_product}>Diseñamos y desarrollamos aplicaciones web a medida, fusionando creatividad y funcionalidad para potenciar tu presencia digital y cumplir con tus necesidades.</p>
                 </div>
                 
                 <div className={styles.marquesina}>

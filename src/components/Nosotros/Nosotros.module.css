@@ -6,12 +6,12 @@
   background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .card {
-  width: 300px;
-  margin: 15rem auto;
+  width: 40rem;
+  margin: 0 auto;
   text-align: center;
   border-radius: 35px;
   background: linear-gradient(197deg, rgba(52, 240, 210, 0.50) 3.6%, rgba(0, 72, 117, 0.50) 78.85%); padding: -1rem 2rem 5rem 2rem;
@@ -35,11 +35,11 @@
     }
   }
 
-.cardImage {
-  margin-top: 2rem;
-  width: 24rem;
-  border-radius: 800px;
-  border: 3px solid #FFF;
+.cardImage { 
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 51rem;
   background-color: #6098F0;
   border-radius: 641px;
   border: 9px solid #FFF;
@@ -72,3 +72,125 @@ text-transform: uppercase;
   line-height: normal;
   text-transform: uppercase;
 }
+@media (max-width:1100px) {
+  /* Nosotros.module.css */
+ 
+ .card {
+   width: 35rem;
+   margin: 7rem auto;
+ 
+  
+ }
+ 
+ 
+   @keyframes float {
+     0%, 100% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
+     }
+   }
+ 
+ .cardImage {
+   margin-top: 2rem;
+   width: 35rem;
+   border-radius: 800px;
+ }
+ 
+ .cardBody {
+   padding: 20px;
+ }
+ 
+ .cardTitle {
+ font-size: 60px;
+ font-weight: 500;
+ }
+ 
+ .cardText {
+   color: #FFF;
+   font-size: 40px;
+   font-weight: 300;
+ }
+ }
+@media (max-width:670px) {
+  /* Nosotros.module.css */
+ 
+ .card {
+   width: 20rem;
+   margin: 10rem auto;
+ 
+  
+ }
+ 
+ 
+   @keyframes float {
+     0%, 100% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
+     }
+   }
+ 
+ .cardImage {
+   margin-top: 2rem;
+   width: 24rem;
+   border-radius: 800px;
+ }
+ 
+ .cardBody {
+   padding: 20px;
+ }
+ 
+ .cardTitle {
+ font-size: 40px;
+ font-weight: 500;
+ }
+ 
+ .cardText {
+   color: #FFF;
+   font-size: 30px;
+   font-weight: 300;
+ }
+ }
+@media (max-width:500px) {
+  /* Nosotros.module.css */
+ 
+ .card {
+   width: 15rem;
+   margin: 3rem auto;
+  
+ }
+ 
+   @keyframes float {
+     0%, 100% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
+     }
+   }
+ 
+ .cardImage {
+   margin-top: 2rem;
+   width: 24rem;
+   border-radius: 800px;
+ }
+ 
+ .cardBody {
+   padding: 20px;
+ }
+ 
+ .cardTitle {
+ font-size: 32px;
+ font-weight: 500;
+ }
+ 
+ .cardText {
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 300;
+ }
+ }
+
