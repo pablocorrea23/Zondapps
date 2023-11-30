@@ -6,6 +6,9 @@
 
 
 }
+.tituloCard{
+  background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
+}
 
 .card {
   display: flex;
@@ -78,10 +81,13 @@
 }
 
 @media (max-width: 700px) {
+  .mySwiper {
+    height: 54rem;
+  }
   .card {
     width: 22rem;
     height: 35rem;
-    margin: 20rem auto;
+    margin: 10rem auto;
   }
 
   .cardImage {
@@ -94,14 +100,14 @@
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 380px) {
   .mySwiper {
-    height: 57rem;
+    height: 40rem;
   }
   .card {
     width: 18rem;
     height: 27rem;
-    margin: 20rem auto;
+    margin: 8rem auto;
   }
 
   .cardImage {

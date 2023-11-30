@@ -13,17 +13,24 @@ import perfil3 from '../../assets/PerfilPablo.png';
 import perfil4 from '../../assets/PerfilMaxiD.png';
 import perfil5 from '../../assets/PerfilSanti.png';
 import styles from './Nosotros.module.css';
+import NuevoComponente from './TituloNosotros'
 
 const Nosotros = () => {
   return (
+    <>
+    <div className={styles.tituloCard} >
+     <NuevoComponente />
     <Swiper
       navigation={true}
       modules={[Navigation]}
       className={`mySwiper ${styles.mySwiper}`}
       loop={true}
-    >
-      <SwiperSlide>
 
+    >
+    
+  
+      <SwiperSlide>
+ 
         <div className={styles.card}>
           <div className={styles.card2}>
             {/* Fondo de la card */}
@@ -100,6 +107,8 @@ const Nosotros = () => {
 </SwiperSlide>
 
     </Swiper>
+    </div>
+    </>
   );
 };
 
