@@ -1,196 +1,115 @@
 /* Nosotros.module.css */
-
 .mySwiper {
   max-width: 100%;
-  height: 100vh;
+  height: 70rem;
   background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+
+
 }
 
 .card {
-  width: 40rem;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 35px;
-  background: linear-gradient(197deg, rgba(52, 240, 210, 0.50) 3.6%, rgba(0, 72, 117, 0.50) 78.85%); padding: -1rem 2rem 5rem 2rem;
-  overflow: hidden;
-  display: flex; /* Utilizamos flexbox para centrar verticalmente */
-  flex-direction: column; /* Aplicamos flexbox en dirección de columna */
-  justify-content: center; /* Centramos verticalmente */
-  box-sizing: border-box;
-  
-  
-  animation: float 5s infinite alternate-reverse; /* Animación de flotar */
-}
-
-
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(15px); /* Ajusta la distancia del efecto flotante */
-    }
-  }
-
-.cardImage { 
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
-  width: 51rem;
-  background-color: #6098F0;
-  border-radius: 641px;
-  border: 9px solid #FFF;
+
+  width: 40rem;
+  height: 50rem;
+  margin: 0 auto;
+
+  animation: float 5s infinite alternate-reverse;
 }
 
-.cardBody {
-  padding: 20px;
+.card2 {
+  position: relative;
+
 }
 
-.cardTitle {
-  color: #22DCBE;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: Kanit;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: uppercase;
+.cardBackground {
+
+  z-index: -1;
+  mix-blend-mode: overlay;
+  filter: drop-shadow(-1px 31px 41px rgba(0, 0, 0, 0.25));
+
 }
 
-.cardText {
-  color: #FFF;
+.cardImage {
+  position: absolute;
+  z-index: 2;
+  top: 9%;
+  right: -8%;
 
-  font-family: Kanit;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  text-transform: uppercase;
+  width: 47rem;
+  /* Ajusta el tamaño según tus necesidades */
+
 }
-@media (max-width:1100px) {
-  /* Nosotros.module.css */
- 
- .card {
-   width: 35rem;
-   margin: 7rem auto;
- 
-  
- }
- 
- 
-   @keyframes float {
-     0%, 100% {
-       transform: translateY(0);
-     }
-     50% {
-       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
-     }
-   }
- 
- .cardImage {
-   margin-top: 2rem;
-   width: 35rem;
-   border-radius: 800px;
- }
- 
- .cardBody {
-   padding: 20px;
- }
- 
- .cardTitle {
- font-size: 60px;
- font-weight: 500;
- }
- 
- .cardText {
-   color: #FFF;
-   font-size: 40px;
-   font-weight: 300;
- }
- }
-@media (max-width:670px) {
-  /* Nosotros.module.css */
- 
- .card {
-   width: 20rem;
-   margin: 10rem auto;
- 
-  
- }
- 
- 
-   @keyframes float {
-     0%, 100% {
-       transform: translateY(0);
-     }
-     50% {
-       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
-     }
-   }
- 
- .cardImage {
-   margin-top: 2rem;
-   width: 24rem;
-   border-radius: 800px;
- }
- 
- .cardBody {
-   padding: 20px;
- }
- 
- .cardTitle {
- font-size: 40px;
- font-weight: 500;
- }
- 
- .cardText {
-   color: #FFF;
-   font-size: 30px;
-   font-weight: 300;
- }
- }
-@media (max-width:500px) {
-  /* Nosotros.module.css */
- 
- .card {
-   width: 15rem;
-   margin: 3rem auto;
-  
- }
- 
-   @keyframes float {
-     0%, 100% {
-       transform: translateY(0);
-     }
-     50% {
-       transform: translateY(20px); /* Ajusta la distancia del efecto flotante */
-     }
-   }
- 
- .cardImage {
-   margin-top: 2rem;
-   width: 24rem;
-   border-radius: 800px;
- }
- 
- .cardBody {
-   padding: 20px;
- }
- 
- .cardTitle {
- font-size: 32px;
- font-weight: 500;
- }
- 
- .cardText {
-   color: #FFF;
-   font-size: 20px;
-   font-weight: 300;
- }
- }
 
+@media (max-width: 1750px) {
+  .card {
+    width: 30rem;
+    height: 40rem;
+    margin: 10rem auto;
+  }
+
+  .cardImage {
+    top: 9%;
+    right: -4%;
+    width: 32rem;
+    /* Ajusta el tamaño según tus necesidades */
+
+  }
+
+}
+
+
+@media (max-width: 1100px) {
+  .card {
+    width: 40rem;
+    height: 47rem;
+    margin: 10rem auto;
+  }
+
+  .cardImage {
+    top: 9%;
+    right: 0%;
+    width: 38rem;
+    /* Ajusta el tamaño según tus necesidades */
+
+  }
+
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 22rem;
+    height: 35rem;
+    margin: 20rem auto;
+  }
+
+  .cardImage {
+    top: 9%;
+    right: 0%;
+    width: 22rem;
+    /* Ajusta el tamaño según tus necesidades */
+
+  }
+
+}
+
+@media (max-width: 300px) {
+  .mySwiper {
+    height: 57rem;
+  }
+  .card {
+    width: 18rem;
+    height: 27rem;
+    margin: 20rem auto;
+  }
+
+  .cardImage {
+    top: 9%;
+    right: 2%;
+    width: 18rem;
+    /* Ajusta el tamaño según tus necesidades */
+
+  }
+
+}
