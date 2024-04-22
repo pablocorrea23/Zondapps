@@ -1,6 +1,28 @@
-.fondo_product {
+.container_cel_product{
   width: 100%;
   height: 100vh;
+}
+
+.banner{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.banner img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 6px;
+  overflow: hidden;
+}
+
+
+.fondo_product {
+  width: 100%;
+  height: 90vh;
   background: radial-gradient(52.48% 83.1% at 50% 50%, #125B88 0%, #003E5B 100%);
   display: flex;
   flex-direction: column;
@@ -41,10 +63,11 @@
 .titulo_product {
   color: #22DCBE;
   font-family: Kanit;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: normal;
   text-transform: uppercase;
   text-align: center;
+  max-width: 100%;
 }
 
 .descripcion_product {

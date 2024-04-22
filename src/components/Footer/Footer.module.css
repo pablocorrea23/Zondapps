@@ -15,10 +15,11 @@
 
 .p_foot {
     width: 100%;
-    font-size: 1rem;
-    text-align: justify;
+    font-size: 0.9rem;
+    text-align: center;
     font-weight: 300;
     color: #7F8988;
+    overflow-wrap: break-word;
 }
 
 .img_logo_foot {
@@ -30,7 +31,8 @@
 .box2 {
     width: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     color: #7F8988;
 }

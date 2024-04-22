@@ -9,36 +9,29 @@
     font-family: 'kanit';
 }
 
-.img_pantalla {
+.img_celular {
     padding-top: 2rem;
-    width: 80%;
-    height: 50%;
+    width: 60%;
+    height: auto;
 }
 
 .contenedor_texto {
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
 }
 
-.contenedor_texto h2 {
-    width: 100%;
-    height: 50%;
-    line-height: 3rem;
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: rgba(34, 220, 190, 1);
-}
-
 .contenedor_texto h3{
-    width: 100%;
-    height: 50%;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
     margin-top: 1rem;
     color: rgba(127, 137, 136, 1);
     font-weight: bolder;
+    text-align: center;
+    white-space: nowrap;
 }
 
 @media (min-width: 500px){

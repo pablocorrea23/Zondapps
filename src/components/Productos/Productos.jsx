@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import Pc_product from './pc_product/Pc_product';
 import Cel_product from './cel_product/Cel_product';
 

@@ -5,7 +5,7 @@ import Arranca from './components/Arranca/arranca';
 import Productos from './components/Productos/Productos';
 import Footer from './components/Footer/Footer';
 import Nosotros from './components/Nosotros/Nosotros';
-import Carrusel from './components/Carrusel/Carrusel';
+// import Carrusel from './components/Carrusel/Carrusel';
 
 
 

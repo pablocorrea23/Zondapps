@@ -18,96 +18,96 @@ import NuevoComponente from './TituloNosotros'
 const Nosotros = () => {
   return (
     <>
-    <div className={styles.tituloCard} >
-     <NuevoComponente />
-    <Swiper
-      navigation={true}
-      modules={[Navigation]}
-      className={`mySwiper ${styles.mySwiper}`}
-      loop={true}
+      <div className={styles.tituloCard} >
+        <NuevoComponente />
+        <Swiper
+          navigation={true}
+          modules={[Navigation]}
+          className={`mySwiper ${styles.mySwiper}`}
+          loop={true}
 
-    >
-    
-  
-      <SwiperSlide>
- 
-        <div className={styles.card}>
-          <div className={styles.card2}>
-            {/* Fondo de la card */}
-            <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
-            <div className={`${styles.cardImage}`}>
-              {/* Imagen de perfil */}
-              <img src={perfil1} alt="Perfil 1"  />
+        >
 
+
+          <SwiperSlide>
+
+            <div className={styles.card}>
+              <div className={styles.card2}>
+                {/* Fondo de la card */}
+                <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
+                <div className={`${styles.cardImage}`}>
+                  {/* Imagen de perfil */}
+                  <img src={perfil1} alt="Perfil 1" />
+
+                </div>
+
+              </div>
             </div>
+          </SwiperSlide>
 
-          </div>
-        </div>
-      </SwiperSlide>
-      
-      <SwiperSlide>
+          <SwiperSlide>
 
-        <div className={styles.card}>
-          <div className={styles.card2}>
-            {/* Fondo de la card */}
-            <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
-            <div className={`${styles.cardImage}`}>
-              {/* Imagen de perfil */}
-              <img src={perfil2} alt="Perfil 2"  />
+            <div className={styles.card}>
+              <div className={styles.card2}>
+                {/* Fondo de la card */}
+                <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
+                <div className={`${styles.cardImage}`}>
+                  {/* Imagen de perfil */}
+                  <img src={perfil2} alt="Perfil 2" />
 
+                </div>
+
+              </div>
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
 
-          </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.card2}>
+                {/* Fondo de la card */}
+                <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
+                <div className={`${styles.cardImage}`}>
+                  {/* Imagen de perfil */}
+                  <img src={perfil3} alt="Perfil 3" />
 
-<div className={styles.card}>
-  <div className={styles.card2}>
-    {/* Fondo de la card */}
-    <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
-    <div className={`${styles.cardImage}`}>
-      {/* Imagen de perfil */}
-      <img src={perfil3} alt="Perfil 3"  />
+                </div>
 
-    </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
 
-  </div>
-</div>
-</SwiperSlide>
-<SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.card2}>
+                {/* Fondo de la card */}
+                <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
+                <div className={`${styles.cardImage}`}>
+                  {/* Imagen de perfil */}
+                  <img src={perfil4} alt="Perfil 4" />
 
-<div className={styles.card}>
-  <div className={styles.card2}>
-    {/* Fondo de la card */}
-    <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
-    <div className={`${styles.cardImage}`}>
-      {/* Imagen de perfil */}
-      <img src={perfil4} alt="Perfil 4"  />
+                </div>
 
-    </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
 
-  </div>
-</div>
-</SwiperSlide>
-<SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.card2}>
+                {/* Fondo de la card */}
+                <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
+                <div className={`${styles.cardImage}`}>
+                  {/* Imagen de perfil */}
+                  <img src={perfil5} alt="Perfil 5" />
 
-<div className={styles.card}>
-  <div className={styles.card2}>
-    {/* Fondo de la card */}
-    <img src={fondoCard} alt="Fondo de Card" className={`${styles.cardBackground}`} />
-    <div className={`${styles.cardImage}`}>
-      {/* Imagen de perfil */}
-      <img src={perfil5} alt="Perfil 5"  />
+                </div>
 
-    </div>
+              </div>
+            </div>
+          </SwiperSlide>
 
-  </div>
-</div>
-</SwiperSlide>
-
-    </Swiper>
-    </div>
+        </Swiper>
+      </div>
     </>
   );
 };

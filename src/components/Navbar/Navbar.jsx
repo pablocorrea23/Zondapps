@@ -26,9 +26,9 @@ const Navbar = () => {
 
             <div className='contenedor_menu_imagen'>
                 <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
-                    <button>Nuestros servicios</button>
-                    <button>Equipo</button>
-                    <button>Contacto</button>
+                    {/* <button>Nuestros servicios</button> */}
+                    <button className='webs_button'>WEBS</button>
+                    <button className='apps_button'>APPS</button>
                 </ul>
             </div>
 

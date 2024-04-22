@@ -78,10 +78,32 @@
     width: 10rem;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     padding: 5px;
     border-radius: 7px;
     white-space: nowrap;
+}
+
+.webs_button{
+    background-color: rgba(52, 240, 210, 1);
+    color: rgba(43, 68, 97, 1);
+    border: 1px solid rgba(43, 68, 97, 1);
+}
+
+.webs_button:hover{
+    background-color: rgba(0, 62, 91, 1);
+    color: white;
+    border: 1px solid white;
+}
+
+.apps_button{
+    color: white;
+    border: 1px solid white;
+}
+
+.apps_button:hover{
+    background-color: rgba(52, 240, 210, 1);
+    color: rgba(43, 68, 97, 1);
+    border: 1px solid rgba(43, 68, 97, 1);
 }
 
 @media (max-width: 1000px) {
